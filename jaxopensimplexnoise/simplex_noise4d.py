@@ -6,7 +6,7 @@ jax.config.update("jax_enable_x64", True)
 from jax import lax
 import jax.numpy as jnp
 import numpy as np
-from simplex_types import jnpFloat32, int_precision, long_precision, float_precision, double_precision
+from .simplex_types import jnpFloat32, int_precision, long_precision, float_precision, double_precision
 from jaxtyping import Float, Array, Int
 # jax.config.update("jax_enable_x64", True)
 # jax.config.update("jax_disable_jit",False)
